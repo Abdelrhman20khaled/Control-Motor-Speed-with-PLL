@@ -28,9 +28,9 @@ The objective of this project is to design and implement a closed-loop control s
 ## Schematic
 The schematic for this project includes all necessary components for controlling the speed of a DC motor using a Phase-Locked Loop (PLL) with the **NE565 IC**, **ATmega32 microcontroller**, and an oscilloscope for monitoring system performance. The design integrates the motor control circuitry, feedback loop, and microcontroller connections.
 
-<img src="Images/Schematic.jpg" width="500"/>
-<img src="Images/Schematic.jpg" width="500"/>
-<img src="Images/Schematic.jpg" width="500"/>
+<img src="Images/dc-motor.jpg" width="500"/>
+<img src="Images/ne565.jpg" width="500"/>
+<img src="Images/Full Screen.jpg" width="500"/>
 
 ## How it Works
 1. The **NE565 PLL** locks the motor's speed to a reference frequency by adjusting its control voltage based on feedback.
