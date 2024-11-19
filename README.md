@@ -17,11 +17,6 @@ The objective of this project is to design and implement a closed-loop control s
 2. **Write and test control code** for the ATmega32 to interface with the motor and PLL circuit.
 3. **Simulate and validate the system** using both hardware and software tools.
 
-## Current Status
-- Code for the ATmega32 microcontroller has been implemented.
-- The NE565 PLL circuit has been designed and integrated.
-- Simulations and testing of the complete system are ongoing.
-
 ## Hardware and Tools
 - **PLL Chip**: NE565
 - **Microcontroller**: ATmega32
@@ -29,6 +24,13 @@ The objective of this project is to design and implement a closed-loop control s
 - **Oscilloscope**: Used for real-time monitoring
 - **Development Environment**: AVR IDE or equivalent
 - **Simulation Tool**: Proteus or similar software
+
+## Schematic
+The schematic for this project includes all necessary components for controlling the speed of a DC motor using a Phase-Locked Loop (PLL) with the **NE565 IC**, **ATmega32 microcontroller**, and an oscilloscope for monitoring system performance. The design integrates the motor control circuitry, feedback loop, and microcontroller connections.
+
+<img src="Images/Schematic.jpg" width="500"/>
+<img src="Images/Schematic.jpg" width="500"/>
+<img src="Images/Schematic.jpg" width="500"/>
 
 ## How it Works
 1. The **NE565 PLL** locks the motor's speed to a reference frequency by adjusting its control voltage based on feedback.
