@@ -1,6 +1,6 @@
 # Motor Speed Control using PLL (NE565) and ATmega32
 
-This repository contains the code and simulation files for controlling the speed of a DC motor using a Phase-Locked Loop (PLL) implemented with the **NE565 IC** and an **ATmega32 microcontroller**. The project utilizes an oscilloscope for monitoring system performance and motor speed feedback.
+This repository contains the code and simulation files for controlling the speed of a DC motor using a Phase-Locked Loop (PLL) implemented with the **NE565 IC** and an **ATmega32 microcontroller**. The project is part of a learning initiative and is designed to enhance understanding of motor control systems and PLL applications. An oscilloscope is utilized for monitoring system performance and motor speed feedback.
 
 ## Project Overview
 
